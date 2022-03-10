@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="hw">华为</string>
+    <string name="sx">三星</string>
+    <string name="njy">诺基亚</string>
+    <string name="ok">确定</string>
+    <string name="cancle">关闭</string>
+</resources>

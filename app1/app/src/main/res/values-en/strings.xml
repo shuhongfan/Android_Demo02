@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="cancle">Cancel</string>
+    <string name="hw">HUAWEI</string>
+    <string name="sx">SAMSUNG</string>
+    <string name="njy">Nokia</string>
+    <string name="ok">OK</string>
+</resources>
