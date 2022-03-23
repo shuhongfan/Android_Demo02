@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    package属性：指定当前应用的唯一包名（标识，不能的应用此值不相同）
+    versionName属性：指定应用的版本号
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.shf.app2">
+<!--
+    icon：应用图标
+    label：应用名称
+-->
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.App2">
+<!--
+        activity标签： 配置我们节点Activity类
+        name属性： 全类名，可以生了你包名部分
+        label属性：界面的标题
+-->
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+<!--          .MainActivity让当前Actvity成为主界面Activity  -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
