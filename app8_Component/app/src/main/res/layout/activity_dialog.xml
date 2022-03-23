@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".DialogActivity">
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_ad"
+            android:text="显示一般AlertDialog"
+            android:onClick="showAD"/>
+    <Button
+            android:id="@+id/btn_test4_ld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showLD"
+            android:text="显示单选列表AlertDialog"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_custom"
+            android:text="显示自定义AlertDialog"
+            android:onClick="showCD"/>
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_pd"
+            android:onClick="showPD"
+            android:text="显示图形进度ProgressDialog"
+            android:layout_marginTop="20dp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_pd2"
+            android:onClick="showPD2"
+            android:text="显示水平进度ProgressDialog"/>
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_dd"
+            android:onClick="showDateAD"
+            android:text="显示DatePickerDialog"
+            android:layout_marginTop="20dp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_test4_td"
+            android:onClick="showTimeAD"
+            android:text="显示TimePickerDialog"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

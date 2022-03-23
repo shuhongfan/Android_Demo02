@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this,ProgressActivity.class));
                 break;
             case R.id.btn_main_test4:
-
+                startActivity(new Intent(this,DialogActivity.class));
+                break;
+            default:
                 break;
         }
     }

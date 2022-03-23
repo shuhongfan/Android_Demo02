@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.App8_Component">
         <activity
+                android:name=".DialogActivity"
+                android:exported="true"/>
+        <activity
                 android:name=".ProgressActivity"
                 android:exported="true"/>
         <activity
