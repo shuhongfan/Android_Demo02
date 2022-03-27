@@ -1,0 +1,6 @@
+package com.shf.app21_service.romote;
+import com.shf.app21_service.romote.Student
+
+interface IStudentService {
+    Student getStudentById(int id);
+}
