@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">app11_StyleTheme</string>
+
+<!--
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/textView1"
+            android:drawableLeft="@android:drawable/star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+-->
+    <style name="myStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@android:drawable/star_big_on</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="myTheme">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+</resources>
