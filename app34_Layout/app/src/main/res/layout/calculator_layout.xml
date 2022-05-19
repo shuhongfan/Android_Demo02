@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+<!--        android:onClick="oneOnClick"-->
+        <TextView
+                android:id="@+id/tv_cancel"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="C"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_plus_or_minus"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="+/-"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_mod"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="%"
+                android:textSize="30sp"/>
+
+<!--        android:onClick="oneOrangeClick"-->
+        <TextView
+                android:id="@+id/tv_divider"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="/"
+                android:textSize="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+        <TextView
+                android:id="@+id/tv_number_one"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_two"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_three"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_mul"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="*"
+                android:textSize="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+        <TextView
+                android:id="@+id/tv_number_four"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_five"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_six"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_minus"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:textSize="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+        <TextView
+                android:id="@+id/tv_number_seven"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_eight"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_number_nine"
+                android:background="@drawable/selector_white_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/tv_plus"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textSize="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:id="@+id/tv_number_zero"
+                android:background="@drawable/selector_white_bg"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="0"
+                android:textSize="30sp"
+                android:paddingLeft="40dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+        <TextView
+                android:id="@+id/tv_number_point"
+                android:background="@drawable/selector_white_bg"
+                android:layout_width="0dp"
+                android:textSize="30sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."
+                android:gravity="center"/>
+
+        <TextView
+                android:id="@+id/tv_equal"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="="
+                android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>

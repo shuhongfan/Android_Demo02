@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.shf.app36_activity">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.App36_Activity">
+        <activity
+                android:name=".LaunchModeActivity2"
+                android:exported="true"/>
+<!--
+    android:launchMode="standard"
+            standard：每次会创建新的任务，并且置于当前的栈顶
+                      当我们点击返回时，其实就是销毁当前任务，移出当前任务，也就是出栈的过程
+                使用场景： 大多数场景都是使用这个模式
+
+            singleTop：如果栈顶已经是当前的任务了，那么就不会在创建新的任务
+                使用场景：一般来说，为了保证只有一个任务，而不被创建多个，所以就需要这种模式，比如说我们的浏览器的书签，我们的应用推送
+
+            singleTask：如果创建的任务没有，就会创建任务，并且放在栈顶。
+                        如果任务已经存在了，就会把任务以上的任务全部从栈中移出，使得当前任务成为顶部任务
+                使用场景：当我们这个任务的资源比较大的时候，我们就使用singTask模式
+
+            singleInstance: 前面三种启动模式，都是在同一个任务栈里面的，但是SingleInstance比较特别，
+                            它是一个独立的任务栈。它是单一的对象，独占一个栈，不会再创建，只要把它提前
+                 使用场景： 在整个系统中只有唯一一个实例。比如说我们的Launcher，只有一个。
+-->
+        <activity
+                android:name=".LaunchModeActivity"
+                android:exported="true"
+                android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".LifeCycleActivity5"
+                android:configChanges="keyboardHidden|screenSize|orientation"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".LifeCycleActivity4"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".LifeCycleActivity3"
+                android:exported="true"
+                android:theme="@android:style/Theme.Translucent"/>
+        <activity
+                android:name=".LifeCycleActivity2"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".VideoPlayerActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".LifeCycleActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".SixthActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".PayActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".SendMsgActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.shf.app36_activity.SendMsgActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="msg"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".RegisterResultActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".LoginActivity"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".FifthActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".FourthActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Skip2BrowserActivity"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".ThirdActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.shf.LOGIN_INFO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".SecondActivity"
+                android:exported="true"
+                android:label="@string/app_name2">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

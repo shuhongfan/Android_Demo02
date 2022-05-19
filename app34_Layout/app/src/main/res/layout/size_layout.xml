@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+<!--
+    布局中常用的单位
+        像素单位px：像素单位不建议使用，除非是手表，或者是机顶盒
+
+        适配单位dp：适配屏幕的单位，推荐使用，在实际开发过程中，UI设计师会给你标好的
+
+        字体单位sp：放大像素（比例像素），与刻度无关，可以根据用户的字体大小首选项进行缩放，主要用来处理字体的大小
+
+-->
+
+    <View
+            android:background="#FF00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    <View
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="#00ff00"/>
+
+</LinearLayout>
